@@ -1,4 +1,8 @@
 # Water Level Monitor
+In my home of The Royal bafokeng Nation in Phokeng, Rustenburg there is a water crisis. The temporary solution by the Administrative authority has been to install water tanks in household yards across the nation. Whenever the water depletes water trucks are sent to refill these tanks. The problem is that we only realise that we need refills once the water is completely depleted, by then we are already in distress, and it takes some time to organise a water truck to carry out the service. 
+
+The problem I am solving with this project is the lack of real-time data that the Administrative authority (The Bafokeng Civic Center in this case) has access to. Using this device and the cloud platform, the Civic Centre would be alerted whenever water levels hit 20% and will be prompted to organise water trucks and dispatch the water trucks to refill the water tanks before they are completely dry.
+Once this product is installed across the nation the data it collects will be stored in the cloud and will downloadable for analysis to use when planning for the nations future water infrastructure to create a more robust water distribution system for the Royal Bafokeng Nation.
 
 This project implements a water level monitor using an ESP8266 microcontroller, ultrasonic sensor, OLED display, and Blynk app integration. The water level is measured using the ultrasonic sensor, and the data is displayed on an OLED screen. Additionally, the project includes Blynk integration for remote monitoring and control through a mobile app.
 
